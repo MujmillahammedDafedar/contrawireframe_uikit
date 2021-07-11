@@ -1,15 +1,13 @@
-# mysocial
+# Contra Wireframe UIKIT for IOS/ANDROID
 
-A new Flutter project.
+Open source wireframe kit
 
-## Getting Started
+A starter wireframe kit for quick design and prototyping your idea. Its library contains more than 150+ components and 50+ ready to use mobile screens. You can also create new components and screens easily with the help of its style guide.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Lab: Figma design](https://www.figma.com/file/e0AJyBrKMTS4LcxLtnIL0p/contra-wireframe-kit-(Community)?node-id=184%3A1007)
+
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
