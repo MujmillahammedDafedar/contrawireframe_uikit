@@ -3,13 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mysocial/ui/shared/buttons.dart';
 import 'package:mysocial/ui/shared/const_widget.dart';
+import 'package:mysocial/ui/views/signup.dart';
 import 'package:mysocial/utils/constant/colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Login extends StatelessWidget {
-  signin() {}
   @override
   Widget build(BuildContext context) {
+    signin() {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => SignUp()),
+      );
+    }
+
     return SafeArea(
       child: Scaffold(
         backgroundColor: white,
@@ -36,11 +43,11 @@ class Login extends StatelessWidget {
                 height: 24.h,
               ),
               customeText(false,
-                  hintText: "Email addresss", icon: Icons.person),
+                  hintText: "Email addresss", icon: Icons.person_outlined),
               SizedBox(
                 height: 38.h,
               ),
-              customeText(true, hintText: "", icon: Icons.lock),
+              customeText(true, hintText: "", icon: Icons.lock_outlined),
               SizedBox(
                 height: 48.h,
               ),
@@ -88,7 +95,9 @@ class Login extends StatelessWidget {
                       text: "Create new",
                       recognizer: TapGestureRecognizer()
                         ..onTap = () {
-                          print("Woooh worked !!");
+                          print("ad");
+
+                          signin();
                         },
                     ),
                   ],
