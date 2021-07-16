@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mysocial/ui/shared/buttons.dart';
+import 'package:mysocial/ui/views/bottomBar.dart';
 import 'package:mysocial/utils/constant/colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
@@ -9,6 +10,13 @@ import 'package:pin_code_fields/pin_code_fields.dart';
 class OtpFields extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    signup() {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => Main()),
+      );
+    }
+
     return SafeArea(
       child: Scaffold(
         body: Column(
@@ -111,7 +119,7 @@ class OtpFields extends StatelessWidget {
                       padding: const EdgeInsets.only(left: 20.0, right: 20.0),
                       child: customButton(
                         () {
-                          // signup();
+                          signup();
                         },
                         'Verify',
                         context,
