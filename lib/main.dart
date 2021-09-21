@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       designSize: Size(360, 690),
       builder: () => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Propelld',
+        title: 'CONTRA',
         //     navigatorObservers: [
         //     locator<AnalyticsService>().getAnalyticsObserver(),
         // ],
